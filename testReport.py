@@ -45,8 +45,8 @@ if __name__ == "__main__":
 
 # 只需要改这些即可，开始
 smtpserver = 'smtp.163.com'
-username = 'yongyilee3@163.com'
-password = 'xxxzcz0102'     # 设置客户端授权码 的 密码
+username = 'xxx@163.com'
+password = 'xxx'     # 设置客户端授权码 的 密码
 sender = 'xxx@163.com'
 # 收件人为多个收件人
 receiver = ['xxx@163.com']
