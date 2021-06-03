@@ -47,9 +47,9 @@ if __name__ == "__main__":
 smtpserver = 'smtp.163.com'
 username = 'yongyilee3@163.com'
 password = 'xxxzcz0102'     # 设置客户端授权码 的 密码
-sender = 'yongyilee3@163.com'
+sender = 'xxx@163.com'
 # 收件人为多个收件人
-receiver = ['yongyilee3@163.com']
+receiver = ['xxx@163.com']
 subject = "Lee's Report"
 mailbody = "Hi!\nHow are you?\nHere is the link you wanted:\nhttp://www.testfan.cn\n\nThanks!"
 attachfile = "smail.py"
@@ -58,7 +58,7 @@ attachfile = "smail.py"
 
 msg = MIMEMultipart('mixed')
 msg['Subject'] = subject
-msg['From'] = 'Lee <yongyilee3@163.com>'
+msg['From'] = 'Lee <xxx@163.com>'
 # 收件人为多个收件人,通过join将列表转换为以;为间隔的字符串
 msg['To'] = ";".join(receiver)
 
